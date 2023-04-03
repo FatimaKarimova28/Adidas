@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1500px;
+   
+}
+
+body{
+    
+    font: 1rem sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.container1{
+    margin: 0 auto;
+    width: 1500px;
+    max-width: 1500px;
+}
+.header-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.header-top-info{
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Cinzel Decorative';
+    font-weight: bolder;
+}
+.menu-help a{
+    color: black;
+    font-family: 'Cinzel Decorative';
+    font-size: small;
+    flex-direction: row;
+    padding-right: 20px;
+    text-decoration: none;
+    
+   
+}
+.menu-help{
+    padding-left: 1070px;
+}
+.main-menu a{
+    color: black;
+    font-family: 'Cinzel Decorative';
+    flex-direction: row;
+    padding-right: 30px;
+    text-decoration: none;
+
+}
+.main-menu{
+    padding-left: 250px;
+    padding-top: 35px;
+}
+.search{
+    padding-left: 1170px;
+  transform: translateY(-30px);
+  
+}
+
+.types{
+    list-style: none;
+    display: flex;
+}
+.logo{
+    position: absolute;
+    left: 40px;
+    top: 60px;
+}
+
+#main-image {
+    height: 750px;
+    background-image: url(./adidas-mainphoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    padding-left: 25px;
+
+}
+
+.info-container {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 523px;
+    height: 48px;
+    padding-bottom: 5px;
+    font-family: 'Cinzel Decorative';
+    text-decoration: none;
+}
+.info-container-2 {
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    max-width: 523px;
+    height: 48px;
+    padding-bottom: 250px;
+    font-family: 'Cinzel Decorative';
+    text-decoration: none;
+}
+
+.button {
+    padding: 6px 10px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: none;
+    box-shadow: 3px 3px white;
+    transition: all 0.2s ease-out;
+    font-family: 'Cinzel Decorative';
+    text-decoration: none;
+}
+
+.button:active {
+    background-color: black;
+    box-shadow: 0 5px transparent;
+    transform: translateX(4px) translateY(3px);
+   
+}
+
+
+.img-container:hover .section-4-price {
+    
+    transform: translateX(0px) translateY(-4px);
+    transition: 0.5s;
+}
+
+.space {
+    height: 50px;
+    background-color: black;
+    font-family: 'Cinzel Decorative';
+    text-decoration: none;
+}
+.columns {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin-top: 80px;
+    column-gap: 10px;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+}
+
+.section-3-img-container {
+    background-color: #ECEFF1;
+    display: flex;
+    justify-content: center;
+    height: 234px;
+    width: 385px;
+    color: black;
+    font-family: 'Cinzel Decorative';
+    text-decoration: none;
+    
+
+}
+
+.section-3-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 57px;
+}
+
+
+.section-3-a-href {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.choice-2 {
+    height: 485px;
+    padding-top: 80px;
+
+}
+
+.choice-2-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.moderator {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    color: #9fa5a8;
+    margin-bottom: 20px;
+    font-family: 'Cinzel Decorative';
+}
+
+.moderator-end {
+    font-size: 20px;
+    font-weight: 600;
+    height: 36px;
+    display: flex;
+    font-family: 'Cinzel Decorative';
+}
+
+.arrow {
+    display: flex;
+    color: black;
+    margin-bottom: 20px;
+
+}
+.product {
+    display: flex;
+    justify-content: center;
+    height: 398px;
+    background-color: white;
+    column-gap: 10px;
+    font-family: 'Cinzel Decorative';
+
+}
+
+.img-container {
+    position: relative;
+}
+
+
+.img-like-button {
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    font-size: 25px;
+
+
+}
+
+.section-4-price {
+    text-align: center;
+    width: 32px;
+    background-color: #d1dde2;
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+    font-family: 'Cinzel Decorative';
+}
+
+
+
+.section-5 {
+    height: 478px;
+    background-color: #fff;
+    font-family: 'Cinzel Decorative';
+    padding-left: 70px;
+ 
+    
+
+}
+
+.section-5-container {
+    column-gap: 10px;
+    display: flex;
+    font-family: 'Cinzel Decorative';
+   
+}
+
+.section-5-img-info {
+    margin-top: 10px;
+    height: 112px;  
+    width: 350px;
+    font-family: 'Cinzel Decorative';
+}
+
+.shop-now {
+    margin-top: 10px;
+    padding: 0px;
+    font-weight: bolder;
+    height: 35px;
+    font-family: 'Cinzel Decorative';
+
+}
+
+.shop-now a {
+    padding: 0px;
+    border-bottom: 2px solid black;
+    font-family: 'Cinzel Decorative';
+
+}
+
+.section-5-img-info-header {
+    height: 30px;
+    font-family: 'Cinzel Decorative';
+}
+.section-6 {
+    height: 375px;
+    margin-top: 80px;
+    background-color: white;
+    font-family: 'Cinzel Decorative';
+}
+
+.section-6-header {
+    height: 43px;
+    font-size: 24px;
+    font-family: 'Cinzel Decorative';
+}
+
+.section-6-body {
+    display: flex;
+    gap: 10px;
+    font-family: 'Cinzel Decorative';
+}
+
+.section-6-main {
+    display: flex;
+    font-family: 'Cinzel Decorative';
+}
+
+
+.section-6-body-info {
+    position: absolute;
+    width: 265px;
+    height: 137px;
+    background-color: #ffffff;
+    margin-left: 26px;
+    margin-top: -20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 25;
+    font-family: 'Cinzel Decorative';
+    
+}
+.section-7 {
+    margin-top: 80px;
+    height: 296px;
+    background-color: #fff;
+    font-family: 'Cinzel Decorative';
+}
+
+.popular-container-1 {
+    font-size: 32px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    font-family: 'Cinzel Decorative';
+}
+
+.popular-container-2 {
+    font-size: 32px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    font-family: 'Cinzel Decorative';
+}
+
+.popular-container-row {
+    border-bottom: 1px solid black;
+    width: 491px;
+    margin-right: 48px;
+    margin-top: 75px;
+    font-family: 'Cinzel Decorative';
+}
+
+
+.popular-container-row a:hover {
+
+    border-bottom: 10px solid black;
+    font-family: 'Cinzel Decorative';
+}
+
+.pp a:hover
+{
+    border-bottom: 10px solid black;
+    font-family: 'Cinzel Decorative';
+}
+.section-8 {
+    height: 592px;
+    background-color: bisque;
+    font-family: 'Cinzel Decorative';
+}
+
+.about {
+    padding: 80px 0px;
+    display: flex;
+    column-gap: 30px;
+    font-family: 'Cinzel Decorative';
+}
+
+.column-container {
+    display: flex;
+    font-family: 'Cinzel Decorative';
+   
+}
+
+
+
+.column-1-container {
+    width: 420px;
+    height: 176px;
+    font-family: 'Cinzel Decorative';
+}
+
+.column-2-container {
+    width: 420px;
+    height: 126px;
+    font-family: 'Cinzel Decorative';
+}
+.discout-bottom {
+    background-color: yellow;
+    display: flex;
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'Cinzel Decorative';
+}
+.link-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 10px;
+    height: 440px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    font-family: 'Cinzel Decorative';
+
+}
+
+.section-10 .link-container div {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-10 .link-container div h4 {
+    padding: 20px 10px 10px 10px;
+}
+
+
+footer {
+    height: 685px;
+    background-color: #ECEFF1;
+    font-family: 'Cinzel Decorative';
+    color: black;
+}
+
+
+.social-media a {
+    font-size: 30px;
+}
+.footer-bottom {
+    background-color: #282c31;
+    font-size: 12px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Cinzel Decorative';
+    color: black;
+}
+
+.footer-copyright {
+    background-color: #282c31;
+    color: #ffffff86;
+    font-size: 14px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Cinzel Decorative';
+
+}
+
+.footer-bottom a {
+    color: #ffffff86;
+}
+
+.section-10 a:hover {
+    text-decoration: underline;
+}
